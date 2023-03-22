@@ -1,0 +1,50 @@
+.exercise-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eachexercise-cont {
+    margin-left: 20px;
+    width: 400px;
+}
+
+.eachexercise-cont a {
+    text-decoration: none;
+    color: black;
+}
+
+.eachexercise-cont h3 {
+    width: 360px;
+}
+
+.line-top {
+    width: 360px;
+    height: 3px;
+    background-color: rgb(235, 1, 1);
+}
+
+@media only screen and (max-width: 860px) {
+
+    .exercise-cont {
+        margin-left: -30px;
+    }
+
+    .eachexercise-cont {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+
+    .exercise-cont {
+        margin-left: -10px;
+    }
+
+    .eachexercise-cont img {
+        width: 300px;
+    }
+    .line-top {
+        width: 300px;
+    }
+}
